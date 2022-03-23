@@ -10,5 +10,5 @@ for i in range(1, 5):
     screen.rotate_to(pos)
     time.sleep(1.5)
 
-with Image.open("scream.jpg") as im:
-    im.show()
+im = Image.open(r"C:\Users")
+im.show()
