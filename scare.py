@@ -1,4 +1,5 @@
 import rotatescreen
+from PIL import Image
 import time
 
 screen = rotatescreen.get_primary_display()
@@ -8,3 +9,6 @@ for i in range(1, 5):
     pos = abs((start_pos - i*90) % 360)
     screen.rotate_to(pos)
     time.sleep(1.5)
+
+with Image.open("scream.jpg") as im:
+    im.show()
