@@ -1,7 +1,7 @@
 <h1 align='center'>Scare-Prank</h1>
 
   <p align="center">
-    <img src="">
+    <img src="./readmescream.png">
   </p>
 
   <p align="center">
@@ -33,7 +33,7 @@
   `git clone (this repository)`
 
   ## Usage
-  `python3 script.py`
+  `python3 scare.py`
 
   ## License
   ![badge](https://img.shields.io/badge/license-Academic-brightgreen)
