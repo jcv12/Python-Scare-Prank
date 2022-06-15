@@ -15,7 +15,7 @@
     
   ## Description
   This is a python script that when called will display a scary image to scare any user who might use this. So if you have a friend you wanna mess with just install this on there computer call the command then wait and eatch them jump from there skin
-  This project was built using these languages and libraries:
+  This project was built using these languages and libraries: Python3 and Pygame
   
 
   ## Table of Contents
