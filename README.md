@@ -1,7 +1,7 @@
 <h1 align='center'>Scare-Prank</h1>
 
   <p align="center">
-    <img src="./readmescream.png">
+    <img src="./readmescream.png" width="300">
   </p>
 
   <p align="center">
