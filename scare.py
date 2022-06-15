@@ -1,12 +1,13 @@
-import rotatescreen
+import pygame
 
-import time
-
-screen = rotatescreen.get_primary_display()
-start_pos = screen.current_orientation
-
-for i in range(1, 5):
-    pos = abs((start_pos - i*90) % 360)
-    screen.rotate_to(pos)
-    time.sleep(1.5)
-
+from time import sleep
+pygame.init()
+window = pygame.display.set_mode((0,0), pygame.FULLSCREEN)
+pygame.mixer.init()
+pygame.mixer.music.load('female_scream.wav')
+pygame.mixer.music.play()
+sleep(5)
+image = pygame.image.load('scream.jpg')
+window.blit(image, (0,0))
+pygame.display.update()
+sleep(3)
